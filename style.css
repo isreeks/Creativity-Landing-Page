@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+    --bg-white:  #fff;
+    --text-white:#fff;
+    --btn-text-bg:#4b4b4b;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-white);
+}
+.wrapper {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+
+nav {
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    top: 1%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 30px;
+    font-size: 20px;
+}
+.border{
+    margin: auto 50px;
+    border: 1px solid black;
+    width: 400px;
+    height: 2px;
+    background-color: black;
+}
+
+.left-section{
+    width: 40%;
+    background-image: url(/assets/pexels-rfstudio-3819572.jpg);
+    background-size: cover;
+}
+
+.right-section{
+    width: 60%;
+    height: 100%;
+    margin-top: 3%;
+    padding: 40px;
+}
+
+.creativity{
+    display: flex;
+    justify-content: space-between;
+}
+
+.creative-Left h2{
+    font-size: 130px;
+    font-family: "Merriweather", sans-serif;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.topText {
+    -webkit-text-stroke-width: 1px;
+    color: transparent;
+    -webkit-text-stroke-color: var(--btn-text-bg);
+}
+
+
+.creative-Left div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.creative-Left div p{
+    font-family: "Merriweather", sans-serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 400;
+    padding-left: 32px;
+    color: #949393;
+    padding-top: 20px;
+}
+
+.createive-Right ul{
+    list-style: none;
+}
+
+.createive-Right li{
+    font-size: 40px;
+}
+
+.btn button{
+    padding: 10px 20px;
+    background-color: var(--btn-text-bg);
+    border: none;
+    color: var(--text-white);
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    justify-self: end;
+    margin-left: auto;
+}
+
+.bottom-section{
+    display: flex;
+}
+
+.bottom-section ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.bottom-section li{
+    font-size: 20px;
+}
+
+.content{
+    width: 40%;
+}
+
+
+.content img{
+    width: 500px;
+
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.content p{
+    font-size: 25px;
+}
+
+.arrow{
+    width: 30%;
+    font-size: 100px;
+}
+
+
