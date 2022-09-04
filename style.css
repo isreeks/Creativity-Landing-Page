@@ -120,38 +120,60 @@ nav li {
 .bottom-section{
     display: flex;
 }
-
-.bottom-section ul{
-    list-style-type: none;
+.list {
     display: flex;
     flex-direction: column;
-    width: 30%;
-}
-.bottom-section li{
-    font-size: 20px;
-}
-
-.content{
-    width: 40%;
+    gap: 3rem;
+    font-size: 1.5rem;
+    color: #5d5d5d;
+    margin-top: 80px;
+    
 }
 
+.list-item span {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background: #5d5d5d;
+    margin-right: 1.6rem;
+    position: relative;
+}
 
-.content img{
+.list-item span::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 85px;
+    background: #5d5d5d;
+    position: absolute;
+    left: 6px;
+}
+
+.image-container {
+    margin-left: 12rem;
+}
+.text {
+    margin-bottom: 1rem;
+}
+.img {
+    background-image: url(../assets/pexels-cottonbro-7974875.jpg);
+    height: 400px;
     width: 500px;
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.content h1{
-    font-size: 50px;
-}
-
-.content p{
-    font-size: 25px;
-}
-
-.arrow{
-    width: 30%;
-    font-size: 100px;
+.arrow {
+    background-image: url(../assets/down-arrow.png);
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 
